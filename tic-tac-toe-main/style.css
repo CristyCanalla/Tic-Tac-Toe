@@ -1,0 +1,55 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: url('https://www.xtrafondos.com/descargar.php?id=3480&resolucion=3840x2160');
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 2px #fd1cdf;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #f5f5f5;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 310px;
+    margin: 10px auto;
+    background: url('https://i.pinimg.com/originals/1c/3a/cd/1c3acd92ba4fdd57b14f44864fad8e23.jpg');
+    color:#f5f5f5;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #f5f5f5;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #02246d;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px 2px #1004b6;
+    border: 2px solid #5809eb;
+}
+footer {
+    text-align:center;
+    color:#ffffff;
+    font-size: 15px;
+}
